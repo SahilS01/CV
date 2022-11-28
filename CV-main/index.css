@@ -1,0 +1,219 @@
+/* Index */
+
+body{
+    background-color: #BEDCFA;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.content p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Linkedin-img{
+    height: 1rem;
+    width: 1rem;
+    padding: 6px 2px 0 2px;
+}
+
+.content-link a:active{
+    color: #FF4646;
+}
+
+.content-link a:hover{
+    color: #FFB72B;
+    transition: 0.4s;
+}
+
+
+hr{
+    border: 1px solid black;
+    width: 50%;
+}
+
+.education{
+    text-align: center;
+    padding: 1rem;
+}
+
+.education h3{
+    font-size: 20px;
+    margin: 5px 0 20px 0;
+}
+
+.education ul{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.education li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.education li a:active{
+    color: #FF4646;
+}
+
+.education li a:hover{
+    color: #FFB72B;
+    transition: 0.4s;
+}
+
+.skills{
+    text-align: center;
+    padding: 1rem;
+}
+
+.skills h3{
+    font-size: 20px;
+    margin: 5px 0 20px 0;
+}
+
+.skills-table{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.skills-tablet{
+    text-align: center;
+}
+
+.soft-skills-heading{
+    font-size: 20px;
+    margin: 25px 0 20px 0 !important;
+}
+
+.skills-table-two{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-table-two td{
+    padding: 10px;
+    background: #fff3c6;;
+}
+
+.links{
+    padding: 1rem;
+    text-align: center;
+}
+
+.link-content a{
+    padding: 1rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.link-content a:active{
+    color: #FF4646;
+}
+
+.link-content a:hover{
+    color: #FFB72B;
+    transition: 0.4s;
+}
+
+
+/* Hobbies */
+
+.hobbies-content-body h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.football-img,
+.music-img{
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+
+/* Contact */
+
+.form-content-one,
+.form-content-two{
+    text-align: center;
+}
+
+.form-content-heading h1{
+    font-size: 45px;
+}
+
+.form-content-content-paras{
+    line-height: 2.4;
+}
+
+.details-heading h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.text{
+    left: -26.5rem;
+    position: relative;
+}
+
+.text label{
+    position: absolute;
+    top: 1rem;
+}
+
+.message textarea{
+    position: absolute;
+    top: 31rem;
+    left: 25rem;
+    width: 51%;
+}
+
+
+.forms-buttons{
+    text-align: center;
+    top: 15rem;
+    position: relative;
+}
+
+.forms-buttons input{
+    width: 10%;
+    background-color: #F49D1A;
+    border: none;
+}
+
+.forms-buttons input:hover{
+    background-color: #f0c078;
+    cursor: pointer;
+    color: #ff0000;
+    font-weight: 550;
+}
